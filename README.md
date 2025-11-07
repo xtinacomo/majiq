@@ -1,4 +1,4 @@
-**Cryptic Exon Analysis using [Majiq 2.5] (https://majiq.biociphers.org)** 
+**Cryptic Exon Analysis using [Majiq 2.5](https://majiq.biociphers.org)** 
 
 1. Edit config file to include files and directories. All sample files must be in the same directory.
 2. Run the majiq.sh script and edit output results folder 
