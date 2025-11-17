@@ -10,5 +10,5 @@
 3. Launch voila using
 
 ```
-voila tsv -f /path/to/results/file.voila.tsv /path/to/results/build/splicegraph.sql /path/to/results/dpsi/deltapsi.voila
+voila view /path/to/results/file.voila.voila /path/to/results/build/splicegraph.sql
 ``` 
