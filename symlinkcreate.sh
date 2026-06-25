@@ -1,9 +1,9 @@
-SRC="/data/NGD/2026_Elise_Organoid/snakemake_out/MAPPED"
-DEST="/data/NGD/2026_Elise_Organoid/snakemake_out/MAJIQ/majiq/LINKS"
+SRC="/data/CARDPB2/users/comocn/scratch/results/star"
+DEST="/data/comocn/majiq/LINKS2"
 
 mkdir -p "$DEST"
 
-for d in "$SRC"/Organoid_cDNA_*; do
+for d in "$SRC"/TTUr*; do
     [ -d "$d" ] || continue
 
     sample=$(basename "$d")

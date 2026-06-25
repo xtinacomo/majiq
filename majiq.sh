@@ -8,6 +8,7 @@
 #SBATCH --time=6:00:00
 
 mkdir -p ./logs
+mkdir -p results/build
 
 module load majiq/2.5
 
